@@ -37,10 +37,3 @@ Nah, ini "alat tempur" yang aku pake di proyek ini, dibikin gaya "kotak-kotak" b
 8.  Terakhir, buka browser dan akses `http://localhost/nama-folder-proyekmu/`.
 9.  Harusnya udah jalan! 🎉
 
----
-
-### 👨‍💻 Yang Bikin
-
-* **[Nama Lengkap Kamu]**
-* **[NIM / Kelas Kamu]**
-* *Tugas Praktikum Pemrograman Web*
