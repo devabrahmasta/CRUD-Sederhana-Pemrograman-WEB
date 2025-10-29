@@ -1,21 +1,23 @@
-# 🎬 Proyek CRUD Film Sederhana (Tugas Praktikum)
+# 🎬 Proyek CRUD Manajemen Film (Tugas Praktikum)
 
-Halo! 👋
+Selamat datang di repositori proyek tugas praktikum Pemrograman Web.
 
-Ini proyek simpel banget buat tugas praktikum Pemrograman Web. Intinya cuma nunjukkin fungsionalitas dasar **CRUD (Create, Read, Update, Delete)** pake studi kasus koleksi film.
+Proyek ini merupakan aplikasi web sederhana yang dibangun untuk mendemonstrasikan fungsionalitas dasar **CRUD (Create, Read, Update, Delete)** dengan studi kasus pengelolaan data koleksi film.
 
-## Fitur Utamanya Apa Aja?
+## ✨ Fitur Utama
 
-* **Create:** Nambahin data film baru ke koleksi.
-* **Read:** Nampilin semua daftar film yang udah ada di database.
-* **Update:** Ngubah data film kalau ada yang salah input.
-* **Delete:** Ngehapus film dari koleksi (tenang, ada `alert` konfirmasinya kok, jadi nggak langsung ilang!).
+Aplikasi ini memiliki beberapa fitur inti, di antaranya:
+
+* **Create:** Menambahkan data film baru ke dalam database.
+* **Read:** Menampilkan semua data film yang tersimpan dalam format tabel.
+* **Update:** Memperbarui atau mengedit informasi film yang sudah ada.
+* **Delete:** Menghapus data film dari database, dilengkapi dengan dialog konfirmasi untuk mencegah kesalahan.
 
 ---
 
-### 🛠️ Senjata yang Dipakai (Tech Stack)
+### 🛠️ Teknologi yang Digunakan (Tech Stack)
 
-Nah, ini "alat tempur" yang aku pake di proyek ini, dibikin gaya "kotak-kotak" biar kece!
+Proyek ini dibangun menggunakan beberapa teknologi berikut:
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -25,15 +27,16 @@ Nah, ini "alat tempur" yang aku pake di proyek ini, dibikin gaya "kotak-kotak" b
 
 ---
 
-### 🚀 Gimana Cara Nyalainnya?
+### 🚀 Panduan Instalasi dan Penyiapan
 
-1.  Pastikan **XAMPP** (atau server lokal sejenisnya) udah nyala (Apache & MySQL).
-2.  Kopi-paste semua file proyek ini ke dalam folder `htdocs` di dalam instalasi XAMPP-mu.
-3.  Buka browser, pergi ke `http://localhost/phpmyadmin`.
-4.  Bikin database baru, kasih nama `db_film`.
-5.  Klik database `db_film` yang baru dibuat, terus pilih tab **Import**.
-6.  Pilih file `db_film.sql` dari folder proyek ini, lalu klik "Go" atau "Kirim".
-7.  Buka file `connection.php`. Kalau XAMPP-nya standar, pengaturannya (user 'root' & password 'kosong') harusnya udah pas.
-8.  Terakhir, buka browser dan akses `http://localhost/nama-folder-proyekmu/`.
-9.  Harusnya udah jalan! 🎉
+Untuk menjalankan proyek ini di lingkungan lokal Anda, silakan ikuti langkah-langkah berikut:
 
+1.  Pastikan Anda memiliki *web server* lokal seperti **XAMPP** atau sejenisnya, dan pastikan layanan Apache serta MySQL sedang berjalan.
+2.  Salin seluruh berkas proyek ini ke dalam direktori *root* *web server* Anda (umumnya di dalam folder `htdocs` pada XAMPP).
+3.  Buka **phpMyAdmin** melalui peramban Anda (biasanya di `http://localhost/phpmyadmin`).
+4.  Buat sebuah database baru dengan nama `db_film`.
+5.  Pilih database `db_film` yang baru saja dibuat, kemudian buka tab **Import**.
+6.  Unggah dan impor berkas `db_film.sql` yang terdapat di dalam folder proyek ini.
+7.  Periksa berkas `connection.php`. Pengaturan *default* (host `localhost`, user `root`, dan password kosong) seharusnya sudah sesuai jika Anda menggunakan XAMPP standar.
+8.  Buka peramban (browser) dan akses proyek melalui `http://localhost/nama-folder-proyek-anda/`.
+9.  Aplikasi seharusnya sudah dapat diakses.
