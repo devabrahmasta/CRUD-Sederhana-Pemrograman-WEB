@@ -1,40 +1,46 @@
-# 🎬 Proyek CRUD Manajemen Film Sederhana
+# 🎬 Proyek CRUD Film Sederhana (Tugas Praktikum)
 
-Selamat datang di proyek tugas praktikum Pemrograman Web! 👋
+Halo! 👋
 
-Ini adalah aplikasi web super sederhana yang dibuat untuk mendemonstrasikan fungsionalitas **CRUD (Create, Read, Update, Delete)**. Aplikasi ini memungkinkan pengguna untuk mengelola daftar koleksi film.
+Ini proyek simpel banget buat tugas praktikum Pemrograman Web. Intinya cuma nunjukkin fungsionalitas dasar **CRUD (Create, Read, Update, Delete)** pake studi kasus koleksi film.
 
-## ✨ Fitur Utama
+## Fitur Utamanya Apa Aja?
 
-* **Create:** Menambahkan data film baru ke dalam database.
-* **Read:** Menampilkan semua data film yang ada dalam tabel yang rapi.
-* **Update:** Mengedit dan memperbarui informasi film yang sudah ada.
-* **Delete:** Menghapus data film dari database (lengkap dengan konfirmasi!).
-
----
-
-### 🛠️ Teknologi yang Digunakan
-
-Ini adalah "peralatan" yang saya gunakan untuk membangun proyek ini!
-
-* **🌀 Backend & Logika Server:**
-    * `PHP` (Digunakan untuk semua pemrosesan data, koneksi database, dan logika C-R-U-D).
-* **🗃️ Database:**
-    * `MySQL / MariaDB` (Skema database `db_film` digunakan untuk menyimpan semua data film, seperti judul, genre, dll.).
-* **🎨 Frontend & Styling:**
-    * `HTML5` (Sebagai kerangka utama di setiap halaman seperti `index.php`, `tambah.php`, dan `edit.php`).
-    * `Bootstrap 5` (Dipakai untuk mempercantik tampilan tabel, form, dan navigasi dengan cepat).
-    * `JavaScript` (Sentuhan kecil untuk memunculkan *alert* konfirmasi sebelum menghapus data).
+* **Create:** Nambahin data film baru ke koleksi.
+* **Read:** Nampilin semua daftar film yang udah ada di database.
+* **Update:** Ngubah data film kalau ada yang salah input.
+* **Delete:** Ngehapus film dari koleksi (tenang, ada `alert` konfirmasinya kok, jadi nggak langsung ilang!).
 
 ---
 
-### 🚀 Cara Menjalankan Proyek Ini
+### 🛠️ Senjata yang Dipakai (Tech Stack)
 
-1.  Pastikan kamu sudah menginstal Web Server lokal seperti **XAMPP**, **MAMP**, atau **LAMPP**.
-2.  Letakkan semua file proyek ini ke dalam folder `htdocs` (jika menggunakan XAMPP) atau folder *public root* web server-mu.
-3.  Buka **phpMyAdmin** (biasanya di `http://localhost/phpmyadmin`).
-4.  Buat database baru dengan nama `db_film`.
-5.  Pilih database `db_film` tersebut, lalu impor file `db_film.sql` yang ada di dalam folder proyek ini.
-6.  Buka file `connection.php` dan pastikan pengaturan `$host`, `$username`, dan `$password` sudah sesuai dengan konfigurasi MySQL di komputermu (standarnya sudah `localhost` dan `root`).
-7.  Buka browser dan akses proyekmu (contoh: `http://localhost/nama-folder-proyek-kamu/`).
-8.  Selesai! Aplikasi siap digunakan.
+Nah, ini "alat tempur" yang aku pake di proyek ini, dibikin gaya "kotak-kotak" biar kece!
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+
+### 🚀 Gimana Cara Nyalainnya?
+
+1.  Pastikan **XAMPP** (atau server lokal sejenisnya) udah nyala (Apache & MySQL).
+2.  Kopi-paste semua file proyek ini ke dalam folder `htdocs` di dalam instalasi XAMPP-mu.
+3.  Buka browser, pergi ke `http://localhost/phpmyadmin`.
+4.  Bikin database baru, kasih nama `db_film`.
+5.  Klik database `db_film` yang baru dibuat, terus pilih tab **Import**.
+6.  Pilih file `db_film.sql` dari folder proyek ini, lalu klik "Go" atau "Kirim".
+7.  Buka file `connection.php`. Kalau XAMPP-nya standar, pengaturannya (user 'root' & password 'kosong') harusnya udah pas.
+8.  Terakhir, buka browser dan akses `http://localhost/nama-folder-proyekmu/`.
+9.  Harusnya udah jalan! 🎉
+
+---
+
+### 👨‍💻 Yang Bikin
+
+* **[Nama Lengkap Kamu]**
+* **[NIM / Kelas Kamu]**
+* *Tugas Praktikum Pemrograman Web*
